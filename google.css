@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+padding-left: 100px;
+padding-right: 100px; 
+}
+.container .logo{
+    margin: auto;
+}
+.container .formArea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238,238);
+ 
+}
+
+.container .formArea .form1{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container .formArea .form1 input{
+
+}
+
+.buttonCont{
+    width: 100%;
+   display:flex;
+   flex-direction: row;
+
+    
+}
+.buttonCont #btn1{
+margin-left: auto;
+}
+.buttonCont #btn2{
+    margin-right: auto;
+    margin-left: 5px;
+    }
+    
+.container .otherStuff{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+
+.container .otherStuff .sec1{
+    width: 900px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(126, 229, 218);
+}
+.container .otherStuff .sec1 p{
+    text-align: center;
+}
+.container .otherStuff .sec1 a{
+    text-align: center;
+}
+
+
+.container .otherStuff .sec2{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(112, 204, 194);
+    margin-left: 3px;
+}
+.container .otherStuff .sec2 p{
+    text-align: center;
+}
+.container .otherStuff .sec2 a{
+    text-align: center;
+}
+
+.container .otherStuff .sec3{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(98, 179, 170);
+
+    margin-left: 3px;
+}
+.container .otherStuff .sec3 p{
+    text-align: center;
+}
+.container .otherStuff .sec3 button{
+    width: 70px;
+    margin: auto;
+}
+.container .otherStuff .sec3 input{
+    width: 150px;
+    height: 25px;
+    margin: auto;
+}
+
+.btnSide{
+    margin: auto;
+}
+
